@@ -1,0 +1,27 @@
+.heading {
+  text-align: center;
+  font-size: 38px;
+  color: #333333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: #e7f0fd;
+}
+
+.heading span {
+  color: #a0b8da;
+}
+
+.youtube-video {
+  width: 80%;
+  margin: auto;
+  background-color: var(--surface-color);
+}
+
+iframe {
+  border: 0;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
