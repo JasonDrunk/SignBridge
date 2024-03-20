@@ -27,9 +27,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Modules</h2>
-            <Link to='/module/library'>Library</Link>
-            <Link to='/module/communication'>Communication</Link>
-            <Link to='/module/education'>Education</Link>
+            <Link to='/library'>Library</Link>
+            <Link to='/communication'>Communication</Link>
+            <Link to='/education'>Education</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
