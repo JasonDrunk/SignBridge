@@ -36,7 +36,7 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/communication" element={<Communication />} />
           <Route path="/education" element={<Education />} />
-          <Route path="/data-collection" element={<DataCollection />} />
+          <Route path="/dataset-collection" element={<DataCollection />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/login" element={<Login />} />

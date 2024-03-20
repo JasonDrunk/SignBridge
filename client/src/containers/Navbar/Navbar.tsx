@@ -30,7 +30,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
-              src="/images/SIGN_BRIDGE_LOGO.jpg"
+              src="/images/SIGN_BRIDGE_LOGO.png"
               alt="Logo"
               className="navbar-logo-image"
             />
@@ -48,7 +48,7 @@ function Navbar() {
               <ul className="dropdown-menu">
                 <li>
                   <Link
-                    to="/module/library"
+                    to="/library"
                     className="dropdown-link"
                     onClick={closeMobileMenu}
                   >
@@ -57,7 +57,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    to="/module/communication"
+                    to="/communication"
                     className="dropdown-link"
                     onClick={closeMobileMenu}
                   >
@@ -66,7 +66,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    to="/module/education"
+                    to="/education"
                     className="dropdown-link"
                     onClick={closeMobileMenu}
                   >
